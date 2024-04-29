@@ -50,6 +50,7 @@ h2{
 .middle-container {
     background-color: #f7f7f7; /* new color */
     padding: 20px; /* added to create space between middle-container and top-container */
+    
 }
 
 .computer {
@@ -61,4 +62,37 @@ h2{
 .middle-container h3{
     font-size:40px;
     font-family: "Sedan", serif;
+}
+
+.middle-container p{
+    font-size:20px;
+    font-family: "Roboto", serif;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color:aliceblue; 
+}
+
+.bottom-container h3{
+    font-size:40px;
+    font-family: "Sedan", serif;
+}
+
+.bottom-container p{
+    font-size:20px;
+    font-family: "Roboto", serif;
+}
+
+.console {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.text-container {
+    flex: 1;
 }
