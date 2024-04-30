@@ -67,3 +67,16 @@ h2{
     font-size:25px;
     font-family: "Roboto", serif;
 }
+
+.middle-container h2{
+    font-size:50px;
+    font-family: "Sedan", serif;
+    color:black;
+}
+
+hr{
+    border:ridge #000000 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
